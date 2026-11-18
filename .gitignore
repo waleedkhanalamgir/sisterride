@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+**/.DS_Store
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Flutter / Dart
+app/.dart_tool/
+app/build/
+app/.flutter-plugins-dependencies
+app/.idea/
+
+# PHP / Laravel
+server/vendor/
+server/node_modules/
+server/.phpunit.result.cache
+server/storage/logs/*.log
+
+# Editor
+.idea/
+.vscode/
+*.iml
